@@ -1,5 +1,5 @@
 const { flattenTreeToArray } = require('./dom-util');
-const _ = require('./underbar');
+const _ = require('underscore');
 
 const getElementById = function(root, id) {
   /* BEGIN SOLUTION */
